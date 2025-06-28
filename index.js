@@ -1,4 +1,4 @@
-s /* index.js – ESM */
+/* index.js – ESM */
 import express from "express";
 import cors from "cors";
 import OpenAI from "openai";
