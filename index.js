@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Nova forma de configurar o OpenAI (versão v4+)
 const openai = new OpenAI({
-  process.env.OPENAI_API_KEY,
+   apiKey: process.env.OPENAI_API_KEY,
 });
 
 // Rota principal para testar o servidor
