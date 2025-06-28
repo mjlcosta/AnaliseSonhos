@@ -32,7 +32,7 @@ app.post("/analisar-sonho", async (req, res) => {
         {
           role: "system",
           content:
-            "Você é um psicanalista inspirado em Freud. Analise o sonho do ponto de vista simbólico e emocional. Apenas analise o sonh, não queira aprofundar, nem entrar em contato com o usuário. Devolva na lingua da mensagem do sonho que foi enviada"
+            "Você é um psicanalista inspirado em Freud. Analise o sonho do ponto de vista simbólico e emocional. Apenas analise o sonho, não queira aprofundar, nem entrar em contato com o usuário. Devolva na lingua da mensagem do sonho que foi enviada"
         },
         { role: "user", content: texto }
       ]
